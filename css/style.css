@@ -1,0 +1,124 @@
+
+.p-container{
+  padding: 0px 15px 15px;
+}
+
+.container {
+  width: inherit;
+  text-align: center;
+  color: #2f2f2f;
+}
+
+.container img{
+  width: 42px;
+  margin: 77px 0px 80px;
+}
+
+.container h1{
+  font-size: 26px;
+  margin-bottom: 58px;
+  font-family: Playfair Display;
+  font-weight: 600;
+}
+
+.container h1 span{
+  text-decoration: underline;
+}
+
+.container p{
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.first-container h1{
+  margin-bottom: 32px;
+}
+
+.holder-container{
+  width: inherit;
+  height: 424px;
+}
+
+.holder-container div{
+  height: inherit;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.small-container{
+  width: 36%;
+}
+
+.large-container{
+  width: 64%;
+  background-size: 100% auto;
+}
+
+.testimonials {
+  background-image: url('../pic_reference/comments.png');
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.locations{
+  background-color: #f5d76e;
+}
+
+.menu-container{
+  width: inherit;
+  height: 474px;
+}
+
+.menu{
+  height: inherit;
+  width: 32%;
+  float: left;
+}
+
+.menu:nth-child(2){
+  margin: 0px 2%;
+}
+
+.menu .bg-image{
+  width: 100% ;
+  height: 294px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: 100% auto;
+}
+
+.menu .bg-image h4{
+  text-align: center;
+  font-family: Playfair Display;
+  font-weight: 600;
+  font-size: 31px;
+  color: #000;
+}
+
+.menu table{
+  width: 100%;
+  margin-top: 40px;
+}
+
+.menu table tr td{
+  padding-bottom: 12px;
+  text-align: left;
+  font-size: 16px;
+  font-family: Lato;
+}
+
+.menu table tr td:first-child{
+  width: 60%;
+  font-weight: 700;
+  padding-left: 15%;
+}
+
+.menu table tr td:last-child{
+  width: 40%;
+}
