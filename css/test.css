@@ -1,0 +1,60 @@
+body{
+  margin:0;
+  padding:0;
+  background: #e1e8e3;
+}
+
+ul{
+
+  margin: 0 0 0 250px;
+  list-style: none;
+}
+nav{
+  width: 100%;
+  overflow: auto;
+  background: black;
+
+}
+li{
+  float:left;
+}
+li a{
+  width: 100px;
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-family:arial;
+  color:white;
+  text-align: center;
+}
+
+li a:hover{
+  background: gray;
+}
+
+.logo img{
+  width: 200px;
+  position:absolute;
+  margin-top: 5px;
+  margin-left: 500px;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("../pic_reference/coffee_shop.jpg");
+  margin: 100px 150px 150px 150px;
+  min-height: 1000px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: center;
+  width: auto;
+}

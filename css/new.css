@@ -1,0 +1,38 @@
+.nav-pic{
+  background-image: url("../pic_reference/coffee_shop.jpg");
+  min-height: 1000px;
+  margin: 100px 100px 100px 100px;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  position: center;
+  width: auto;
+}
+.nav-brand{
+  background-image: url("../pic_reference/Coffee.y.png");
+  position: relative;
+  min-height: 1000px;
+  width: 300px;
+  margin: 20px 100px 100px 700px;
+  background-repeat: no-repeat;
+}
+
+nav{
+  width: 1000px;
+  background-color: #333;
+  opacity: 0.7;
+  overflow: hidden;
+  height: 100px;
+  margin: 10px 10px 10px 10px;
+  position: center;
+}
+ul{
+  list-style: none;
+  margin: 0 0 0 0px;
+}
+li{
+  float:left;
+  text-decoration: none;
+}
